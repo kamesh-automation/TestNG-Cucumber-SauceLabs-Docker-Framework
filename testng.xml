@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="1">
+<test name="chromeTest">
+<parameter name = "browser" value ="chrome"/>
+<classes>
+<!--<class name="info.cukes.cucumber_jvm.RunCukesTest"/>-->
+<!--<class name="info.cukes.cucumber_jvm.Login"/>-->
+    <!--To Run In SauceLabs-->
+<!--<class name="info.cukes.cucumber_jvm.SauceTest"/>-->
+    <!--To Run In Local Selenium Grid-->
+<class name="info.cukes.cucumber_jvm.Login_SeleniumGrid_1"/>
+<class name="info.cukes.cucumber_jvm.Login_SeleniumGrid_2"/>
+</classes>
+</test> <!-- Test --> <!-- Test -->
+</suite> <!-- Suite -->

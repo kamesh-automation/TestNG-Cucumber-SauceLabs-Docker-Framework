@@ -1,0 +1,1 @@
+docker build -t kameshsrini/selenium_grid

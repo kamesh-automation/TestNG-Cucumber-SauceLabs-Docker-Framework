@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16153" started-at="2017-08-11T00:23:45Z" finished-at="2017-08-11T00:24:01Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCukesTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:info.cukes.cucumber_jvm.RunCukesTest@4de8b406]" name="feature" class="info.cukes.cucumber_jvm.RunCukesTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="chromeTest" duration-ms="16153" started-at="2017-08-11T00:23:45Z" finished-at="2017-08-11T00:24:01Z">
+      <class name="info.cukes.cucumber_jvm.Login">
+        <test-method status="PASS" signature="invoke_browser(java.lang.String)[pri:0, instance:info.cukes.cucumber_jvm.Login@6a2bcfcb]" name="invoke_browser" is-config="true" duration-ms="9625" started-at="2017-08-10T20:23:45Z" finished-at="2017-08-10T20:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke_browser -->
+        <test-method status="PASS" signature="userinputs()[pri:0, instance:info.cukes.cucumber_jvm.Login@6a2bcfcb]" name="userinputs" duration-ms="2268" started-at="2017-08-10T20:23:55Z" finished-at="2017-08-10T20:23:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userinputs -->
+        <test-method status="PASS" signature="Closebrowser(org.testng.ITestResult)[pri:0, instance:info.cukes.cucumber_jvm.Login@6a2bcfcb]" name="Closebrowser" is-config="true" duration-ms="3625" started-at="2017-08-10T20:23:57Z" finished-at="2017-08-10T20:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userinputs status=SUCCESS method=Login.userinputs()[pri:0, instance:info.cukes.cucumber_jvm.Login@6a2bcfcb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- info.cukes.cucumber_jvm.Login -->
+      <class name="info.cukes.cucumber_jvm.RunCukesTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:info.cukes.cucumber_jvm.RunCukesTest@4de8b406]" name="setup" is-config="true" duration-ms="590" started-at="2017-08-10T20:23:45Z" finished-at="2017-08-10T20:23:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invoke_browser(java.lang.String)[pri:0, instance:info.cukes.cucumber_jvm.RunCukesTest@4de8b406]" name="invoke_browser" is-config="true" duration-ms="8" started-at="2017-08-10T20:23:46Z" finished-at="2017-08-10T20:23:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke_browser -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:info.cukes.cucumber_jvm.RunCukesTest@4de8b406]" name="feature" duration-ms="13858" started-at="2017-08-10T20:23:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-08-10T20:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Flight Reservation Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="Closebrowser(org.testng.ITestResult)[pri:0, instance:info.cukes.cucumber_jvm.RunCukesTest@4de8b406]" name="Closebrowser" is-config="true" duration-ms="159" started-at="2017-08-10T20:24:00Z" finished-at="2017-08-10T20:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=RunCukesTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:info.cukes.cucumber_jvm.RunCukesTest@4de8b406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- info.cukes.cucumber_jvm.RunCukesTest -->
+      <class name="info.cukes.cucumber_jvm.SauceTest">
+        <test-method status="PASS" signature="invoke_browser(java.lang.String)[pri:0, instance:info.cukes.cucumber_jvm.SauceTest@b97c004]" name="invoke_browser" is-config="true" duration-ms="10798" started-at="2017-08-10T20:23:45Z" finished-at="2017-08-10T20:23:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke_browser -->
+        <test-method status="PASS" signature="userinputs()[pri:0, instance:info.cukes.cucumber_jvm.SauceTest@b97c004]" name="userinputs" duration-ms="2828" started-at="2017-08-10T20:23:56Z" finished-at="2017-08-10T20:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userinputs -->
+        <test-method status="PASS" signature="Closebrowser(org.testng.ITestResult)[pri:0, instance:info.cukes.cucumber_jvm.SauceTest@b97c004]" name="Closebrowser" is-config="true" duration-ms="2501" started-at="2017-08-10T20:23:59Z" finished-at="2017-08-10T20:24:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userinputs status=SUCCESS method=SauceTest.userinputs()[pri:0, instance:info.cukes.cucumber_jvm.SauceTest@b97c004] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- info.cukes.cucumber_jvm.SauceTest -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
